@@ -2,10 +2,10 @@ FROM python:3.14-rc-alpine
 
 ENV PYTHONUNBUFFERED 1
 
-COPY .requirements.txt /requirements.txt
+COPY requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
-RUN mkdrir /app
+RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 
