@@ -7,7 +7,7 @@ from .serializers import BlogPostSerializer
 
 
 class BlogPostListCreate(generics.ListCreateAPIView):
-    queryset = BlogPost.objects.all()
+    queryset = BlogPost.objects.all().order_by('-published_date') 
     serializer_class = BlogPostSerializer
 
 
