@@ -1,6 +1,6 @@
 ## FEREGH 9ELBEK       
 This is a safe spafce for u where u can clear ur heart and speak anonymosly.....     
-More seriously : Its a simple blog app using django rest framework where i mainly focused on how to set up and use docker        
+More seriously : Its a simple blog app using django rest framework where i perso mainly made it to focuse on how to set up and use docker        
 ## Prerequisites
 - Docker and Docker Compose installed on your machine.
 
